@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/ASPxPivotGrid_CellTemplates/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_CellTemplates/Default.aspx.vb))
 <!-- default file list end -->
 # How to Customize Cell Appearance via Templates
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1870/)**
+<!-- run online end -->
 
 
 <p>This example shows a share of sold units quantity per salesperson. This report contains absolute and percent values, and their graphical representation. </p><p>The content of pivot grid cells is replaced via templates, as described below: </p><p>1. A class that implements the ITemplate interface is created.<br />
