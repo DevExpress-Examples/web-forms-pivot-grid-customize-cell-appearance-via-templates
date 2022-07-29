@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to Customize Cell Appearance via Templates
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1870/)**
+**[[Run Online]](https://codecentral.devexpress.com/128577313/)**
 <!-- run online end -->
 
 
