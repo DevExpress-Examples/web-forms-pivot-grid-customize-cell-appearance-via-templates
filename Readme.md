@@ -7,7 +7,8 @@
 **[[Run Online]](https://codecentral.devexpress.com/128577313/)**
 <!-- run online end -->
 
-This example shows a share of sold units quantity per salesperson. This report contains absolute and percent values, and their graphical representation. The content of pivot grid cells is replaced via templates, as described below:
+This example shows the share of sold units per salesperson. This report contains absolute and percent values and their graphical representation. The content of pivot grid cells is replaced via templates, as described below:
+
 
 1. A class that implements the [`ITemplate`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.itemplate?view=netframework-4.8.1) interface is created.
 2. An instance of the created class is assigned to the [`ASPxPivotGrid.CellTemplate`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.CellTemplate) property.
