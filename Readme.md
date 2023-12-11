@@ -11,7 +11,8 @@ This example shows a share of sold units quantity per salesperson. This report c
 
 1. A class that implements the [`ITemplate`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.itemplate?view=netframework-4.8.1) interface is created.
 2. An instance of the created class is assigned to the [`ASPxPivotGrid.CellTemplate`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.CellTemplate) property.
-3. The `ASPxPivotGrid` passes an [`PivotGridCellTemplateContainer`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.PivotGridCellTemplateContainer?) object to the `ITemplate.InstantiateIn` method. The PivotGridCellTemplateContainer's `Value` and `Text` properties contain the current cell's value and display text, respectively. In the `InstantiateIn` method implementation, a web control is created to be rendered instead of the cell's content. The created control is added to the `PivotGridCellTemplateContainer.Controls` collection.
+3. The `ASPxPivotGrid` passes an [`PivotGridCellTemplateContainer`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.PivotGridCellTemplateContainer?) object to the `ITemplate.InstantiateIn` method. The PivotGridCellTemplateContainer's `Value` and `Text` properties contain the current cell's value and display text, respectively. In the `InstantiateIn` method implementation, a web control is created that is rendered instead of the cell's content. The created control is added to the `PivotGridCellTemplateContainer.Controls` collection.
+
 4. To render a simple text, a `LiteralControl` is added to the `PivotGridCellTemplateContainer.Controls` collection.
 
 ## Files to Review
