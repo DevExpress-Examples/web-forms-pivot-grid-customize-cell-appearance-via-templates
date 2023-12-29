@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Pivot Grid for Web Forms - How to Customize Cell Appearance via Templates
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128577313/)**
-<!-- run online end -->
 
 This example shows the share of sold units per salesperson. This report contains absolute and percent values and their graphical representation. The content of pivot grid cells is replaced via templates, as described below:
 
